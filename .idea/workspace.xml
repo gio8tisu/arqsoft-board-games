@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7656236-d225-4f21-a088-6d742740e625" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chess/chess.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess/src/com/arqsoft/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess/src/com/arqsoft/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arqsoft/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arqsoft/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arqsoft/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arqsoft/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arqsoft/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arqsoft/Piece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arqsoft/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arqsoft/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arqsoft/ThirdParty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arqsoft/ThirdParty.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="UML Class" />
         <option value="Class" />
       </list>
     </option>
@@ -28,8 +28,13 @@
   <component name="ProjectId" id="1YqJBt2VLIodOpyh7WxVj3myXxf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -72,7 +77,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583664058806</updated>
-      <workItem from="1583664079683" duration="576000" />
+      <workItem from="1583664079683" duration="832000" />
+      <workItem from="1583665039869" duration="4406000" />
     </task>
     <servers />
   </component>
@@ -81,7 +87,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

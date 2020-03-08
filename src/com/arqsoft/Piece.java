@@ -1,6 +1,6 @@
 package com.arqsoft;
 
-public class Piece {
+public abstract class Piece {
     private Player player;
     private Cell cell;
 }
