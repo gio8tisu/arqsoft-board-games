@@ -1,0 +1,24 @@
+Game
+Board
+Cell
+Player
+Turn
+Piece
+Token
+ThirdParty
+Coordinate
+
+@startuml
+
+ThirdParty --> "*" Token
+Player --> "*" Token
+Player <--> "1..*" Piece
+Player ..> Turn : uses
+Piece "*" <--> "1" Cell
+Cell ..> Coordinate
+Cell "1..*" <--o Board
+Board ..> Coordinate
+
+Board : Cell getCell(Coordinate c)
+
+@enduml
