@@ -9,8 +9,23 @@ Pawn
 
 @startuml
 
+abstract class Piece {
+    String color
+    bool isValidMove(Coordinate origin, Coordinate destination)
+}
+class Board {
+    Cell getCell(Coordinate c)
+}
+class Turn {
+    void makeMovement(Player p, Coordinate origin, Coordinate destination)
+}
+class Player {
+    String color
+}
+
 Game --> "2" Player
 Game --> "1" Board : Is played in
+Game --> Turn : Manages
 Piece <|-- King
 Piece <|-- Queen
 Piece <|-- Rook

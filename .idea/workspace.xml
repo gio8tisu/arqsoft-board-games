@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7656236-d225-4f21-a088-6d742740e625" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chess/chess.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chess/src/com/arqsoft/King.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chess/src/com/arqsoft/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess/DomainModel.puml" beforeDir="false" afterPath="$PROJECT_DIR$/chess/DomainModel.puml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YqJBt2VLIodOpyh7WxVj3myXxf" />
