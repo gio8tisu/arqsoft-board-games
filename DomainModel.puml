@@ -10,6 +10,16 @@ Coordinate
 
 @startuml
 
+abstract class Piece {
+    bool isValidMove(Coordinate origin, Coordinate destination)
+}
+class Board {
+    Cell getCell(Coordinate c)
+}
+class Turn {
+    void makeMovement(Player p, Coordinate origin, Coordinate destination)
+}
+
 ThirdParty --> "*" Token
 Player --> "*" Token
 Player <--> "1..*" Piece
