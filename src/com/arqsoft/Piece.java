@@ -1,6 +1,8 @@
 package com.arqsoft;
 
-public class Piece {
+public abstract class Piece {
     private Player player;
     private Cell cell;
+
+    public abstract Boolean isValidMove(Coordinate origin, Coordinate destination);
 }
