@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7656236-d225-4f21-a088-6d742740e625" name="Default Changelist" comment="" />
+    <list default="true" id="d7656236-d225-4f21-a088-6d742740e625" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess/DomainModel.puml" beforeDir="false" afterPath="$PROJECT_DIR$/ChessDomainModel.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess/chess.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess/src/com/arqsoft/Bishop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess/src/com/arqsoft/King.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess/src/com/arqsoft/Knight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess/src/com/arqsoft/Pawn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess/src/com/arqsoft/Queen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess/src/com/arqsoft/Rook.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +45,12 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
