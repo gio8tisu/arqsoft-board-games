@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7656236-d225-4f21-a088-6d742740e625" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/PieceSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/GameState.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +87,7 @@
       <updated>1583664058806</updated>
       <workItem from="1583664079683" duration="832000" />
       <workItem from="1583665039869" duration="4406000" />
-      <workItem from="1587973690864" duration="960000" />
+      <workItem from="1587973690864" duration="1222000" />
     </task>
     <servers />
   </component>
