@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7656236-d225-4f21-a088-6d742740e625" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chess/DomainModel.puml" beforeDir="false" afterPath="$PROJECT_DIR$/ChessDomainModel.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chess/chess.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chess/src/com/arqsoft/Bishop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chess/src/com/arqsoft/King.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chess/src/com/arqsoft/Knight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chess/src/com/arqsoft/Pawn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chess/src/com/arqsoft/Queen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chess/src/com/arqsoft/Rook.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +86,7 @@
       <updated>1583664058806</updated>
       <workItem from="1583664079683" duration="832000" />
       <workItem from="1583665039869" duration="4406000" />
+      <workItem from="1587973690864" duration="161000" />
     </task>
     <servers />
   </component>
