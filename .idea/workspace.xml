@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7656236-d225-4f21-a088-6d742740e625" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/arqsoft/server/chess/domain/ChessBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/ChessBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/arqsoft/server/chess/domain/ChessCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/ChessCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/arqsoft/server/chess/domain/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/ChessPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/arqsoft/server/chess/domain/ChessPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/ChessPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/arqsoft/server/domain/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/arqsoft/server/domain/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/arqsoft/server/domain/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/Coordinate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/arqsoft/server/domain/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/arqsoft/server/domain/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/arqsoft/server/domain/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/arqsoft/server/domain/ThirdParty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/ThirdParty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/arqsoft/server/domain/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/Token.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +97,7 @@
       <updated>1583664058806</updated>
       <workItem from="1583664079683" duration="832000" />
       <workItem from="1583665039869" duration="4406000" />
-      <workItem from="1587973690864" duration="161000" />
+      <workItem from="1587973690864" duration="467000" />
     </task>
     <servers />
   </component>

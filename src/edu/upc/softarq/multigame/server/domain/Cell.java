@@ -1,4 +1,4 @@
-package edu.upc.arqsoft.server.domain;
+package edu.upc.softarq.multigame.server.domain;
 
 import java.util.ArrayList;
 
