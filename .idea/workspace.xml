@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d7656236-d225-4f21-a088-6d742740e625" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/ChessBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/ChessBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/ChessCoordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/ChessCoordinate.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +100,7 @@
       <workItem from="1583664079683" duration="832000" />
       <workItem from="1583665039869" duration="4406000" />
       <workItem from="1587973690864" duration="2730000" />
-      <workItem from="1588354019075" duration="578000" />
+      <workItem from="1588354019075" duration="2083000" />
     </task>
     <servers />
   </component>
