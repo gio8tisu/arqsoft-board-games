@@ -1,6 +1,6 @@
 package edu.upc.softarq.multigame.server.domain;
 
-import java.util.ArrayList;
-
 public interface Cell {
+    void setPiece(Piece piece);
+    Piece getPiece();
 }

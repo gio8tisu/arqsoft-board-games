@@ -3,18 +3,26 @@ package edu.upc.softarq.multigame.server.chess.domain;
 import edu.upc.softarq.multigame.server.domain.Coordinate;
 
 public class ChessCoordinate implements Coordinate {
-    private final int x, y;
+    private int row, column;
 
-    public ChessCoordinate(int x, int y) {
-        this.x = x;
-        this.y = y;
+    public ChessCoordinate(int row, int column) {
+        this.row = row;
+        this.column = column;
     }
 
-    public int getX() {
-        return this.x;
+    public void setRow(int row) {
+        this.row = row;
     }
 
-    public int getY() {
-        return this.y;
+    public void setColumn(int column) {
+        this.column = column;
+    }
+
+    public int getRow() {
+        return this.row;
+    }
+
+    public int getColumn() {
+        return this.column;
     }
 }

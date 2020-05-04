@@ -6,10 +6,10 @@ import edu.upc.softarq.multigame.server.domain.*;
 public abstract class GameFactory {
 
     public static GameFactory getInstance(String game) throws UnknownFactoryException {
-        if (game.equalsIgnoreCase("chess")) {
+        if ("chess".equalsIgnoreCase(game)) {
             return new ChessFactory();
         }
-        throw new UnsupportedOperationException("GameFactory::createInstance(): the operation must be coded");
+        throw new UnknownFactoryException("GameFactory::createInstance(): the operation must be coded");
     }
 
     public abstract GameController createController();
