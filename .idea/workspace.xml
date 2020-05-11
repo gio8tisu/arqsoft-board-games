@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7656236-d225-4f21-a088-6d742740e625" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/FrameworkException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/impl/AbstractGameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/impl/AbstractPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/upc/softarq/utilities/TupleOf2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/GameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/Player.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,15 +50,16 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="edu.upc.softarq.multigame.server.domain" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="edu.upc.softarq.multigame.server" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu.upc.softarq.multigame.server" />
+      <recent name="edu.upc.softarq.multigame.server.domain" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -115,6 +123,7 @@
       <workItem from="1583665039869" duration="4406000" />
       <workItem from="1587973690864" duration="2730000" />
       <workItem from="1588354019075" duration="3117000" />
+      <workItem from="1589194165353" duration="4438000" />
     </task>
     <task id="LOCAL-00001" summary="CHANGE Cell and ChessCell">
       <created>1588593931412</created>

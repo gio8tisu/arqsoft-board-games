@@ -1,4 +1,6 @@
 package edu.upc.softarq.multigame.server.domain;
 
-public interface GameState {
+public enum GameState {
+    NOT_FINALIZED,
+    FINALIZED;
 }
