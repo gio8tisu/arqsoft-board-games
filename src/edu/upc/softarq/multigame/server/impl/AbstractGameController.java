@@ -18,7 +18,6 @@ public abstract class AbstractGameController implements GameController {
     protected int turn;
 
     public AbstractGameController() {
-        this.state = GameState.NOT_FINALIZED;
         this.turn = 0;
         this.players = new ArrayList<Player>();
     }
@@ -33,37 +32,44 @@ public abstract class AbstractGameController implements GameController {
         try {
             this.board = this.factory.createBoard();
         } catch (BoardException e) {
-            e.printStackTrace();
+            throw new FrameworkException("Cannot create board");
         }
         try {
             this.thirdParty = this.factory.createThirdParty();
         } catch (ThirdPartyException e) {
-            System.out.println("This game does not use a third party.");
+            throw new FrameworkException("This game does not use a third party.");
         }
     }
 
     @Override
     public void addPlayer(PlayerSpec spec) throws PlayerException {
         Player newPlayer = this.factory.createPlayer(spec);
+        this.createAndGivePiecesToPlayer(newPlayer, this.board);
+        this.giveTokensToPlayer(newPlayer, this.thirdParty);
         this.players.add(newPlayer);
     }
 
     @Override
     public void playGame() {
-        while (this.state != GameState.FINALIZED) {
-            Player player = nextPlayer();
-            this.giveTurn(player);
-            player.playTurn();
-            this.actionsPerNewState();
+        this.setInitialState();
+        Player player;
+        while (!this.state.isFinalization()) {
+            player = this.nextPlayer();
+            this.playTurn();
+            this.actionsAsPerPlayerTurn();
         }
     }
 
-    protected abstract void actionsPerNewState();
-
-    protected abstract void giveTurn(Player player);
-
     protected Player nextPlayer() {
-        turn += 1;
-        return players.get(turn);
+        this.turn += 1;
+        return this.players.get(this.turn);
     }
+
+    protected abstract void actionsAsPerPlayerTurn();
+
+    protected abstract void createAndGivePiecesToPlayer(Player player, Board board) throws PlayerException;
+
+    protected abstract void giveTokensToPlayer(Player player, ThirdParty thirdParty);
+
+    protected abstract void setInitialState();
 }

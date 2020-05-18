@@ -2,16 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7656236-d225-4f21-a088-6d742740e625" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/FrameworkException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/impl/AbstractGameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/impl/AbstractPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/upc/softarq/utilities/TupleOf2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/FrameworkException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/FrameworkException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/ChessFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/ChessFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/ChessBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/ChessBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/ChessPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/ChessPieceSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/ChessPieceSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/ChessPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/ChessPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/ChessPlayerSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/ChessPlayerSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/ChessState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/ChessState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/chess/domain/Rook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/GameState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/PieceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/PieceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/PlayerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/domain/PlayerException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/impl/AbstractGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/impl/AbstractGameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/impl/AbstractPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/upc/softarq/multigame/server/impl/AbstractPlayer.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +36,7 @@
       <list>
         <option value="UML Class" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -39,6 +51,10 @@
   </component>
   <component name="ProjectId" id="1YqJBt2VLIodOpyh7WxVj3myXxf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -50,29 +66,18 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="edu.upc.softarq.multigame.server" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu.upc.softarq.multigame.server.chess" />
       <recent name="edu.upc.softarq.multigame.server" />
       <recent name="edu.upc.softarq.multigame.server.domain" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.ServerDemo">
     <configuration name="ServerDemo (error)" type="Application" factoryName="Application">
@@ -123,7 +128,10 @@
       <workItem from="1583665039869" duration="4406000" />
       <workItem from="1587973690864" duration="2730000" />
       <workItem from="1588354019075" duration="3117000" />
-      <workItem from="1589194165353" duration="4438000" />
+      <workItem from="1589194165353" duration="4706000" />
+      <workItem from="1589796774048" duration="75000" />
+      <workItem from="1589797040546" duration="40000" />
+      <workItem from="1589797095417" duration="8337000" />
     </task>
     <task id="LOCAL-00001" summary="CHANGE Cell and ChessCell">
       <created>1588593931412</created>
@@ -147,19 +155,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CHANGE Cell and ChessCell. Create simple main program" />
     <MESSAGE value="CHANGE Cell and ChessCell" />
     <MESSAGE value="CREATE Simple main program" />
     <option name="LAST_COMMIT_MESSAGE" value="CREATE Simple main program" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1589805319213">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1589805319213" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

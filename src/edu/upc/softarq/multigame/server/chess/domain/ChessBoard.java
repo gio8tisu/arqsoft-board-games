@@ -16,11 +16,11 @@ public class ChessBoard implements Board {
 
     @Override
     public Cell getCell(Coordinate coordinate) {
-        return cells[((ChessCoordinate) coordinate).getRow()][((ChessCoordinate) coordinate).getColumn()];
+        return cells[((ChessCoordinate) coordinate).getRow() - 1][((ChessCoordinate) coordinate).getColumn() - 1];
     }
 
     @Override
     public void setPieceInCell(Coordinate coordinate, Piece piece) throws BoardException {
-        cells[((ChessCoordinate) coordinate).getRow()][((ChessCoordinate) coordinate).getColumn()].setPiece(piece);
+        cells[((ChessCoordinate) coordinate).getRow() - 1][((ChessCoordinate) coordinate).getColumn() - 1].setPiece(piece);
     }
 }
