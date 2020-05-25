@@ -40,7 +40,7 @@ public class ChessFactory extends GameFactory {
 
     @Override
     public Player createPlayer(PlayerSpec spec) throws PlayerException {
-        ChessPieceColor color = ((ChessPieceSpec) spec).getColor();
+        ChessPieceColor color = ((ChessPlayerSpec) spec).getColor();
         switch (color) {
             case BLACK:
             case WHITE:

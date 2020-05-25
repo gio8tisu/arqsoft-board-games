@@ -15,4 +15,5 @@ public class ChessCell implements Cell {
     public Piece getPiece() {
         return piece;
     }
+
 }
