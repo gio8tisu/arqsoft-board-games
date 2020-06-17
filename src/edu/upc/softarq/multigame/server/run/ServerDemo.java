@@ -18,6 +18,7 @@ public class ServerDemo {
             gameController.addPlayer(whitePlayer);
             ChessPlayerSpec blackPlayer = new ChessPlayerSpec(ChessPieceColor.BLACK);
             gameController.addPlayer(blackPlayer);
+            System.out.println("OK");
         } catch (UnknownFactoryException e) {
             System.out.println("Game not known");
             System.exit(1);

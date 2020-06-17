@@ -2,14 +2,21 @@ package edu.upc.softarq.multigame.server.chess;
 
 import edu.upc.softarq.multigame.server.GameFactory;
 import edu.upc.softarq.multigame.server.chess.domain.*;
+import edu.upc.softarq.multigame.server.chess.network.ChessServerProtocolMngr;
 import edu.upc.softarq.multigame.server.domain.*;
 import edu.upc.softarq.multigame.server.impl.AbstractGameController;
 
 public class ChessController extends AbstractGameController {
 
+    public ChessServerProtocolMngr protMngr;
+
     public ChessController() {
         this.factory = new ChessFactory();
         this.setInitialState();
+    }
+
+    public void setProtMngr(ChessServerProtocolMngr protMngr) {
+        this.protMngr = protMngr;
     }
 
     private void buildFramework(GameFactory cgFactory) throws BoardException {
@@ -71,4 +78,38 @@ public class ChessController extends AbstractGameController {
     protected void setInitialState() {
         this.state = ChessState.INITIAL;
     }
+
+    @Override
+    public void move(int rO, int cO, int rD, int cD) {
+        try {
+            ChessPlayer currentPlayer = (ChessPlayer) this.players.get(turn);
+            // Check if OK.
+            ChessPiece originPiece = ((ChessBoard) this.board).getPiece(rO, cO);
+            if (originPiece == null) {
+                this.protMngr.sendFromServerToClient("E origin cell has no piece.");
+                return;
+            }
+            if (originPiece.getColor() != currentPlayer.getPiecesColor()) {
+                this.protMngr.sendFromServerToClient("E origin piece not corresponding to player");
+                return;
+            }
+            currentPlayer.checkIfCanMovePiece(rO, cO, rD, cD, (ChessBoard) this.board);
+            ChessPiece destinationPiece = ((ChessBoard) this.board).getPiece(rD, cD);
+            if (destinationPiece != null &&
+                    destinationPiece.getColor() == currentPlayer.getPiecesColor()) {
+                this.protMngr.sendFromServerToClient("E destination cell has a friendly piece.");
+                return;
+            }
+
+            // Everything is OK.
+            currentPlayer.proceedToMove(rO, cO, rD, cD, (ChessBoard) this.board);
+            this.protMngr.sendFromServerToClient("OK");
+            this.nextPlayer();
+        } catch (IndexOutOfBoundsException e) {
+            this.protMngr.sendFromServerToClient("E coordinate not valid.");
+        } catch (NoPieceMovementException | NoPathFreeException e) {
+            this.protMngr.sendFromServerToClient("E illegal movement.");
+        }
+    }
+
 }

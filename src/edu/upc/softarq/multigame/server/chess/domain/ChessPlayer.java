@@ -1,5 +1,7 @@
 package edu.upc.softarq.multigame.server.chess.domain;
 
+import edu.upc.softarq.multigame.server.chess.NoPathFreeException;
+import edu.upc.softarq.multigame.server.chess.NoPieceMovementException;
 import edu.upc.softarq.multigame.server.domain.Coordinate;
 import edu.upc.softarq.multigame.server.domain.PieceSpec;
 import edu.upc.softarq.multigame.server.impl.AbstractPlayer;
@@ -11,11 +13,24 @@ import java.util.List;
 public class ChessPlayer extends AbstractPlayer {
     ChessPieceColor color;
 
-    public ChessPlayer() {
-    }
-
     public ChessPlayer(ChessPieceColor color) {
         this.color = color;
+    }
+
+    public ChessPieceColor getPiecesColor() {
+        return this.color;
+    }
+
+    public void proceedToMove(int rO, int cO, int rD, int cD, ChessBoard board) {
+        ChessPiece piece = board.getPiece(rO, cO);
+        board.putPiece(null, rO, cO);
+        board.putPiece(piece, rD, cD);
+    }
+
+    public void checkIfCanMovePiece(int rO, int cO, int rD, int cD, ChessBoard board)
+            throws NoPieceMovementException, NoPathFreeException {
+        ChessPiece piece = board.getPiece(rO, cO);
+        piece.canReachDestination(rO, cO, rD, cD, board);
     }
 
     @Override

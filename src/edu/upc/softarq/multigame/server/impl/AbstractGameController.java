@@ -61,7 +61,7 @@ public abstract class AbstractGameController implements GameController {
     }
 
     protected Player nextPlayer() {
-        this.turn += 1;
+        this.turn = (this.turn + 1) % 2;
         return this.players.get(this.turn);
     }
 
@@ -72,4 +72,6 @@ public abstract class AbstractGameController implements GameController {
     protected abstract void giveTokensToPlayer(Player player, ThirdParty thirdParty);
 
     protected abstract void setInitialState();
+
+    public abstract void move(int coord, int coord1, int coord2, int coord3);
 }

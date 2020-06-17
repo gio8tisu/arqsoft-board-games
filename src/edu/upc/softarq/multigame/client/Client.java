@@ -14,8 +14,6 @@ import edu.upc.softarq.multigame.server.chess.domain.ChessPieceColor;
 import edu.upc.softarq.multigame.server.chess.domain.ChessPlayerSpec;
 import edu.upc.softarq.multigame.server.chess.network.ChessServerNetworkAdapter;
 import edu.upc.softarq.multigame.server.chess.network.ChessServerProtocolMngr;
-import edu.upc.softarq.multigame.client.UIFactory;
-import edu.upc.softarq.multigame.client.UIRenderer;
 
 import java.util.Scanner;
 
@@ -72,7 +70,7 @@ public abstract class Client {
         this.interactWithPlayer();
     }
 
-    protected void prepareFramework() throws Exception{
+    protected void prepareFramework() throws Exception {
         this.board = factory.createUIBoard();
         this.board.setFactory(factory);
         this.board.createAndPutPieces();
@@ -80,13 +78,11 @@ public abstract class Client {
         this.renderer = this.factory.createRenderer();
         this.renderer.render(this.board);
         
-
         this.clNetworkAdap = new ClientNetworkAdapter() ;
         
         this.clientProtMngr = new ClientProtocolMngr(this);
         this.clientProtMngr.setNetworkA(this.clNetworkAdap);
         this.clNetworkAdap.setClientProtocolMngr(clientProtMngr);
-        
         
         this.servNetworkAdap = new ChessServerNetworkAdapter();
         this.servNetworkAdap.setClNetworkAdap(this.clNetworkAdap);
@@ -112,16 +108,11 @@ public abstract class Client {
         spec = ChessPlayerSpec.getInstance(ChessPieceColor.BLACK);
         this.chessController.addPlayer(spec);
 
-        
-        
         this.serverProtMngr.setGame(chessController);
-        this.chessController.setServerProtMngr(serverProtMngr);
+        this.chessController.setProtMngr(serverProtMngr);
 
         this.servNetworkAdap.setServProtocolMngr(this.serverProtMngr);
         this.serverProtMngr.setNetworkAdapter(servNetworkAdap);
-        
-        
-        
     }
 
     public static void main(String[] args) {

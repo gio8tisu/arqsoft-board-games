@@ -9,6 +9,10 @@ public class ChessPlayerSpec implements PlayerSpec {
         this.color = color;
     }
 
+    public static ChessPlayerSpec getInstance(ChessPieceColor color) {
+        return new ChessPlayerSpec(color);
+    }
+
     public ChessPieceColor getColor() {
         return this.color;
     }
